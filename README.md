@@ -8,7 +8,7 @@ The code is separated by sections, trying to keep everything organized to unders
 
 Of course there's a lot of work left for this project but I think I put into practice the things I learned through the course and that this knowledge will help me to optimize my workflow in the long term.
 
-** RESOURCERS: **
+**RESOURCERS:**
 
 - W3 schools: https://www.w3schools.com/
 - Bootstrap docs: https://getbootstrap.com/docs/5.2/getting-started/introduction/
