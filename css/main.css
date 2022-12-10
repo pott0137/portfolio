@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+}
+.skip-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.skip-links a {
+    position: absolute;
+    top: -3rem;
+    background-color: black;
+    color: white;
+    padding: .5em 1em;
+    font-weight: bold;
+}
+.skip-links a:focus {
+    top: 0;
+}
+@font-face {
+    font-family: delicious-sans-font;
+    src: url(/fonts/delicious-sans-font.otf) format("opentype");
+}
+
+@font-face {
+    font-family: dinnext;
+    src: url(/fonts/DINNextLTPro-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: dinbold;
+    src: url(/fonts/din-next-pro-bold.otf) format("opentype");
+}
+h1 {
+    font-family: delicious-sans-font;
+    letter-spacing: 1px;
+    color: grey;
+}
+nav a {
+    font-family: "dinnext";
+    text-decoration: none;
+    list-style: none;
+}
+
+.gallery {
+    width: 80%;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    padding: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    list-style-type: none;
+    color: grey;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footermenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/************* Styles for about page *************/
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+p {
+    font-family: 'delicious-sans-font';
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+}
+
+.about .caption {
+    font-family: 'dinnext';
+}
+
+.about {
+    font-family: 'dinnext';
+}
+
+.about .caption {
+    font-size: 1rem;
+    color: grey;
+    text-align: center;
+    padding: 2rem;
+}
+
+/************* Styles for contact page *************/
+
+.contact h1 {
+    font-family: 'delicious-sans-font';
+    letter-spacing: 1px;
+    color: black;
+    ;
+}
+
+p {
+    font-size: 1.2rem;
+    color: grey;
+    text-align: center;
+}
+
+.form {
+    width: 70%;
+    margin: 0 auto;
+    border: #DBDBDB solid 1px;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: grey;
+}
+.submit {
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: 'dinbold';
+    font-size: 1.3rem;
+}
